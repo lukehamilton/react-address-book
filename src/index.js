@@ -153,15 +153,8 @@ const App = React.createClass({
         </div>
       </div>
     )
-
   }
-
 })
-
-
-
-
-
 
 render((
   <Router history={browserHistory}>
