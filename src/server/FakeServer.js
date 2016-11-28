@@ -57,7 +57,6 @@ let fakeData = {"addresses":[
 ]}
 
 server.respondWith("GET", API, request => {
-  // console.log('faker', fake)
   request.respond(200, {"Content-Type": "application/json"}, JSON.stringify(fakeData))
 })
 
