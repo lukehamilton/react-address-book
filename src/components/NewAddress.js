@@ -84,9 +84,10 @@ const NewAddress = withRouter(
           <div className="col-header-secondary">
             <Link className="close-item" to="/">Cancel</Link>
           </div>
+          <div className="mui-divider"></div>
           <input type="text" className="autocomplete" ref="autocomplete" placeholder="Enter your address" onFocus={this.initAutocomplete} type="text"/>
           <Form onSubmit={this.createAddress}>
-            <div className="mui-textfield">
+            <div className="mui-select">
               <select ref="label">
                 {labelSelectOptions}
               </select>

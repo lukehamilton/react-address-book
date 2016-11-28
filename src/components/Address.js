@@ -52,6 +52,7 @@ const Address = withRouter(
               Close
             </Link>
           </div>
+          <div className="mui-divider"></div>
           <div className="Address">
             <p>
               {address.address_1} {address.address_2} <br/>

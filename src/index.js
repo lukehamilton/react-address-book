@@ -126,18 +126,20 @@ const App = React.createClass({
     return (
       <div className="">
         <div className="jumbotron">
-          <div className="app">
+          <div className="mui-panel app">
             <div className="row">
               <div className="address-list col-xs-4">
                 <div className="text-sm-center col-header">
                   <h5>Addresses</h5>
                   <Link to="/address/new" onClick={this.resetActiveFilter}><i className="fa fa-plus"></i></Link>
                 </div>
+                <div className="mui-divider"></div>
                 <input
                   className="search"
                   placeholder="Search"
                   onChange={ this.handleChange }
                 />
+                <div className="mui-divider"></div>
                 <ul className="list-group">
                   {filteredAddresses}
                 </ul>

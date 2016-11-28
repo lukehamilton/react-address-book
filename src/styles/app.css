@@ -39,14 +39,21 @@ form {
   border-bottom: 2px solid #6e76ae;
 }
 
+.mui-panel  {
+  padding: 0;
+}
+
 .app {
+  margin: 0 auto;
+  max-width: 1200px;
   height: 100%;
   background-color: #ffffff;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 .jumbotron {
-  background-color: #ea5e9f;
+  /*background-color: #ea5e9f;*/
+  background-color: #f4f4f4;
   height: 100vh;
   padding: 4rem 2rem;
 }
@@ -64,14 +71,15 @@ form {
 .col-header  {
   height: 100px;
   position: relative;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0,0,0,.12);
+  /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);*/
 
 }
 
 
 
 .col-header-secondary {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  /*border-right: 1px solid rgba(0,0,0,.12);*/
   height: 100px;
   color: #6e76ae;
   line-height: 100px;
@@ -116,7 +124,7 @@ form {
 
 .list-group  {
   height: 100%;
-  border-right: 2px solid #f5f5f5;
+  border-right: 1px solid rgba(0,0,0,.12);
   overflow-y: scroll;
 }
 
@@ -124,17 +132,19 @@ form {
   border: 0;
   height: 80px;
   padding: 32px 0 32px 23px;
-  border-bottom: 2px solid #f5f5f5;
-  border-right: 2px solid #f5f5f5;
-  margin-right: -1px;
+  /*border-bottom: 2px solid #f5f5f5;*/
+  border-right: 1px solid rgba(0,0,0,.12);
+  /*margin-right: -1px;*/
 }
 
 .autocomplete {
   border: 0;
-  height: 79px;
+  width: 100%;
+  height: 81px;
   padding: 32px 0 32px 23px;
-  border-bottom: 2px solid #f5f5f5;
-  margin-top: 1px;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  /*border-right: 1px solid rgba(0,0,0,.12);*/
+
   /*border-right: 2px solid #f5f5f5;*/
   /*margin-right: -1px;*/
 }
@@ -218,8 +228,13 @@ form {
 
 
 .narrow  {
+
   width: 20%;
   transition: width 0.3s ease, margin 0.3s ease;
+}
+
+.narrow.show {
+  border-right: 1px solid rgba(0,0,0,.12);
 }
 
 .narrow.hide  {
@@ -227,6 +242,7 @@ form {
 }
 
 .wide {
+  padding: 15px 20px 15px 15px;
   width: 66%;
   transition: width 0.3s ease, margin 0.3s ease;
 }

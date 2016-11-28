@@ -42,6 +42,7 @@ const EditAddress = withRouter(
           <div className="col-header-secondary">
             <Link className="close-item" to={`/address/${address.id}`} >Cancel</Link>
           </div>
+          <div className="mui-divider"></div>
           <Form onSubmit={this.updateAddress}>
             <div className="mui-select">
               <select ref="label" defaultValue={address.label}>
