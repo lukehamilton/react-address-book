@@ -2,11 +2,6 @@
 
 Address Book Prototype by Luke Hamilton
 
-## Table of Contents
-
-- [Available Scripts](#available-scripts)
-- [Tools Used](#tools-used)
-
 ## Tools Used
 
 - React
