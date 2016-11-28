@@ -1,8 +1,13 @@
 # React Address Book
 
-Address Book Prototype
+Address Book Prototype by Luke Hamilton
 
-Built with:
+## Table of Contents
+
+- [Available Scripts](#available-scripts)
+- [Tools Used](#tools-used)
+
+## Tools Used
 
 - React
 - React Router
@@ -12,11 +17,6 @@ Built with:
 - Material Design
 - Google Maps
 - Sinon for mock ajax requests
-
-## Table of Contents
-
-- [Available Scripts](#available-scripts)
-- [Architecture Notes](#architecture-notes)
 
 ## Available Scripts
 
